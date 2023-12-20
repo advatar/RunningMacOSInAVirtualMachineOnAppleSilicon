@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C105F8C2B33697800D7EF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C105F8B2B33697800D7EF7B /* Assets.xcassets */; };
+		0C105F8D2B33698C00D7EF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C105F8B2B33697800D7EF7B /* Assets.xcassets */; };
 		8F87D52126C34111000EADA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F87D52026C34111000EADA4 /* AppDelegate.swift */; };
 		8F87D52326C34111000EADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F87D52226C34111000EADA4 /* Assets.xcassets */; };
 		8F87D52626C34111000EADA4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F87D52426C34111000EADA4 /* MainMenu.xib */; };
@@ -59,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C105F8B2B33697800D7EF7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F87D51D26C34111000EADA4 /* macOSVirtualMachineSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSVirtualMachineSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F87D52026C34111000EADA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F87D52226C34111000EADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +193,7 @@
 		8F87D52C26C3418F000EADA4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0C105F8B2B33697800D7EF7B /* Assets.xcassets */,
 				8F87D53D26C34259000EADA4 /* MacOSVirtualMachineConfigurationHelper.swift */,
 				8F87D53E26C34259000EADA4 /* MacOSVirtualMachineDelegate.swift */,
 				8F87D53C26C34259000EADA4 /* Path.swift */,
@@ -399,6 +403,7 @@
 				8F87D54E26C344C4000EADA4 /* README.md in Resources */,
 				8F87D52326C34111000EADA4 /* Assets.xcassets in Resources */,
 				8F87D52626C34111000EADA4 /* MainMenu.xib in Resources */,
+				0C105F8C2B33697800D7EF7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FDABC40270D1DC600D7FC60 /* Assets.xcassets in Resources */,
+				0C105F8D2B33698C00D7EF7B /* Assets.xcassets in Resources */,
 				8FDABC43270D1DC600D7FC60 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,11 +617,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swift/macOSVirtualMachineSampleApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Black VM";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -644,11 +651,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swift/macOSVirtualMachineSampleApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Black VM";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -673,7 +681,7 @@
 				CODE_SIGN_ENTITLEMENTS = InstallationTool.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_USER_SELECTED_FILES = readwrite;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.macOSVirtualMachineSampleApp${SAMPLE_CODE_DISAMBIGUATOR}.macOSVirtualMachineSampleApp";
@@ -690,7 +698,7 @@
 				CODE_SIGN_ENTITLEMENTS = InstallationTool.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_USER_SELECTED_FILES = readwrite;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.macOSVirtualMachineSampleApp${SAMPLE_CODE_DISAMBIGUATOR}.macOSVirtualMachineSampleApp";
@@ -711,10 +719,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Objective-C/macOSVirtualMachineSampleApp/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Black VM";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -742,10 +751,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Objective-C/macOSVirtualMachineSampleApp/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Black VM";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -769,7 +779,7 @@
 				CODE_SIGN_ENTITLEMENTS = InstallationTool.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -784,7 +794,7 @@
 				CODE_SIGN_ENTITLEMENTS = InstallationTool.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2AF8KFX35;
+				DEVELOPMENT_TEAM = 22PS7P6M6M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";

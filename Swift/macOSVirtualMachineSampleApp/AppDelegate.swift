@@ -77,6 +77,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         virtualMachineConfiguration.pointingDevices = [MacOSVirtualMachineConfigurationHelper.createPointingDeviceConfiguration()]
         virtualMachineConfiguration.keyboards = [MacOSVirtualMachineConfigurationHelper.createKeyboardConfiguration()]
 
+        virtualMachineConfiguration.serialPorts = [MacOSVirtualMachineConfigurationHelper.createSerialDeviceConfiguration()]
+        
+        virtualMachineConfiguration.audioDevices = [MacOSVirtualMachineConfigurationHelper.createAudioInputConfiguration(), MacOSVirtualMachineConfigurationHelper.createAudioOutputConfiguration()]
+        
         try! virtualMachineConfiguration.validate()
 
         if #available(macOS 14.0, *) {
